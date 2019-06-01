@@ -3,5 +3,5 @@ branches:
 - master
 projects:
   SimpleBroadcast:
-    path: "icon.png"
+    path: ""
 ...

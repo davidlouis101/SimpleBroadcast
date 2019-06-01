@@ -6,5 +6,5 @@ A Simple PocketMine-MP Broadcasting Tool!
 
 
 # Poggit Status
-[![](https://poggit.pmmp.io/shield.state/SimpleBroadcastV1)](https://poggit.pmmp.io/p/SimpleBroadcastV1)
+
 <a href="https://poggit.pmmp.io/p/SimpleBroadcastV1"><img src="https://poggit.pmmp.io/shield.state/SimpleBroadcastV1"></a>

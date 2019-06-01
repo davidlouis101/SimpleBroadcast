@@ -1,4 +1,4 @@
-name: SimpleBroadcastV1
+name: SimpleBroadcast
 api: [3.0.0]
 main: rafmex\Main
 version: 1.0

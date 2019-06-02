@@ -10,18 +10,18 @@ use pocketmine\utils\Config;
 class Main extends PluginBase{
 	
 	public function onEnable(){
-		$this->getLogger()->info("|---[Broadcast]---|");
-		$this->getLogger()->info("----by-rafmexhd----");
-		$this->getLogger()->info("----Version-1.0----");
-		$this->getLogger()->info("--Edit->config.yml-");
+		$this->getLogger()->info("Loading Config.yml");
+
+
+
 		$this->saveResource("config.yml");
 	}
 	
 	public function onDisable(){
-		$this->getLogger()->info("|---[Broadcast]---|");
-		$this->getLogger()->info("----by-rafmexhd----");
-		$this->getLogger()->info("----Version-1.0----");
-		$this->getLogger()->info("--Save->config.yml-");
+		$this->getLogger()->info("Saving Config.yml");
+
+
+
 	}
 	
 	public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{

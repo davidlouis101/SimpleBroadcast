@@ -33,7 +33,7 @@ class Main extends PluginBase{
 			 $format = $cfg->get("format");
 			 $name = $sender->getName();
 			 $msg = implode(" ",$args);
-			 if($sender->hasPermission("bcast.use")){
+			 if($sender->hasPermission("broadcast.cmd.bcast")){
 			 	$format = str_replace("{sender}", $name, $format);
 			 	$format = str_replace("{msg}", $msg, $format);
 			 	

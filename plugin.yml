@@ -1,7 +1,7 @@
 name: SimpleBroadcast
 api: [3.0.0]
 main: RafmexHD\SimpleBroadcast\Main
-version: 1.0
+version: 1.1
 commands:
   broadcast:
     description: "Broadcast a Message"
